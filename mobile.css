@@ -1,0 +1,568 @@
+@media screen and (max-width: 480px) {
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .logo-text{
+        width: 130px;
+        font-size: 1.25em;
+        margin-left: 10px;
+        line-height: 26px;
+    }
+
+    header{
+       max-width: 100%;
+       height: 64px;
+       gap: 170px;
+    }
+
+    .menu{
+        display: none;
+    }
+    
+    .contact-button{
+        width: 100%;
+        height: 2.25em  ;
+        font-size: 18px;
+        float: right;
+    }
+
+    #page-1{
+        max-width: 100%;
+        padding-top: 90px;
+        padding-left: 20px;
+    }
+
+    .container-page-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-blocks{
+        margin-top: 10px;
+    }
+
+    #contact-telephon,
+    .contact-block,
+    #arrow-up {
+        width: 44px;
+        height: 44px;
+    }
+
+    .contact-icon{
+        width: 24px;
+        height: 24px;
+    }
+   
+    h1{
+        font-size: 2.5em;
+    }
+
+    .achievements{
+        font-size: 0.85em;
+    }
+
+    .images_page-1{
+        
+        margin-top: 25px;
+    }
+    .boss-girl{
+        width: 310px;
+        height: 345px;
+        margin-left: -20px;
+    }
+
+    .lines{
+        width: 510px;
+        margin-left: -120px;
+    }
+
+
+    .violet-cub{
+        width: 390px;
+        height: 380px;
+        margin-left: -50px;
+    }
+
+
+    .nick-mobile{
+        display: block;
+        width: 500px;
+        height: 20px;
+        background-color: #8F2381;
+        margin-left: -60px;
+        padding-top: 5px;
+    }
+
+    .nick-mobile-text{
+        display: block;
+        color: white;
+        font-size: 14px;
+        margin-left:50px;
+    }
+
+    .nick{ 
+        display: none;
+    }
+
+    .nick-text{
+        display: none;
+    }
+
+    .additional-information{
+        width: 100%;
+        height: 110px;
+        margin-top: 30px;
+        margin-left: -10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-container{
+        width: 30%;
+        height:70%;
+        opacity: 80%;
+    }
+
+    .info-container1{
+        width: 20%;
+        height:70%;
+        opacity: 80%;
+    }
+
+    h3{
+        font-size: 1.5em;
+        line-height: 60px;
+    }
+
+    .info-text{
+        font-size: 0.6em;
+        margin-top: -10px;
+    }
+
+    #page-2{
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .circles{
+        width: 60%;
+        height: auto;
+        margin-left: 20px;
+    }
+    .pink-circle,
+    .violet-circle,
+    .burgundy-circle{
+        width: 171px;
+        height: 171px;
+    }
+
+    .pink-circle{   
+        margin-top: 12px;
+        margin-left: -20px;
+    }
+
+    .violet-circle{
+        margin-top: -120px;
+        margin-left: 112px;
+    }
+
+    .rectangles{
+        position: relative;
+        display:grid;
+        grid-template-columns: repeat(10, 35px);
+        margin-top: -180px;
+        margin-left: -5px;
+        width: 350px;
+    }
+
+    .rectangle{
+        width: 39px;
+        height: 247.35px;
+    }
+
+    .for-how{
+        margin-top: 30px;
+        margin-left: -30px;
+        width: 100%;
+    }
+
+    .for-how-title{
+        font-size: 1.4em;
+        line-height: 26px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .for-how-blocks{
+        width: 90%;
+    }
+    .for-how-block1{
+        width: 100%;
+    }
+
+    .for-how-block{
+        height: 90px;
+    }
+
+    .for-how-text{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #page-3{
+        max-width: 100%;
+    }
+
+    .container-page-3{
+        max-width: 100%;
+        background-color:#F0F0F0;
+        padding-top: 140px;  
+        padding-bottom: 100px;
+        padding-left: 28px;
+    }
+    
+    .study-title{
+        height: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: -120px;
+    }
+
+    .study-title-text{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 75px;
+        text-align: left;
+        margin-top: -100px;
+    }
+
+    .wrap-two{
+        gap:30px
+    }
+
+    .start{
+        width: 85px;
+        height: 92px;
+        margin-top: 5px;
+    }
+
+    .study{
+        margin-left: -100px;
+        margin-top: -10px;
+    }
+
+    .study-text{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .days1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one{
+        font-size: 152px;
+    }
+
+    .day1{
+        font-size: 22px;
+        margin-top: -100px;
+    }
+
+    .check-violet{
+        width: 24px;
+        height: 24px;
+    }
+
+    .study-two{
+        width: 100%;
+    }
+
+    .circle{
+        width: 214px;
+        margin-left: -370px;
+    }
+
+    .days2{
+        display: flex;
+        flex-direction: column;
+        margin-left: -10px;
+    }
+
+    .study-block-two{
+        width: 100%;
+        margin-left: -70px;  
+    }
+
+    .study-three{
+        width: 100%;
+    }
+
+    .study-block-three{
+        width: 370px;
+        margin-left: -90px;
+    }
+
+    .days3{
+        display: flex;
+        flex-direction: column;
+        margin-left: -170px;
+    }
+
+    .lines2{
+        overflow: hidden;
+        width: 500px;
+        margin-left: 50px;
+        margin-top: -240px;
+    }
+
+    #page-4{
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 30px;
+        padding-top: 22px;
+    }
+
+    .rate-block1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+    .base{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    .base-text{
+        width: 65%;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .price{
+        width: 181px;
+        height: 33px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin-left: -20px;  
+     }
+
+
+    .price-sum{
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .price2{
+        width: 181px;
+        height: 33px;
+        margin-top: 10px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        margin-left: -20px;  
+ 
+    }
+
+    .consultation{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .consultation-title{
+        width: 90%;
+    }
+
+    .consultation-text{
+        font-size: 18px;
+        line-height: 19px;
+    }
+
+    .group-study{
+        width: 90%;
+        text-align: start;
+    }
+
+    .consultation2-text{
+        font-size: 12px;
+    }
+
+    .consultation2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .base-text-block3{
+        margin-left: -70px;
+    }
+
+    .base-text3{
+        font-size: 14px;
+    }
+
+    .price-consult{
+        width: 181px;
+        height: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;   
+    }
+
+    .pink-circle2{
+        width: 190px;
+        height: 190px;
+        margin-top: 50px;
+        margin-left: -170px;
+    }
+
+    .violet-circle2{
+        width: 112px;
+        height: 112px;
+        margin-left: 60px;
+        margin-top: 50px;
+    }       
+
+    .violet-circle3{
+        width: 112px;
+        height: 112px;
+        margin-top: 100px;
+        margin-left: -13px;
+    }
+
+    .rectangles-consultation{
+        grid-template-columns: repeat(10 , 35px);
+        margin-left: -90px;
+    }
+
+    .rectangle-concult{
+        width: 39px;
+        height: 139px;
+    }
+
+    footer{
+        max-width: 100%;
+        height: 390px;
+        margin-top: 39px;
+    }
+
+    .questions{
+        font-size: 1.3em
+    }
+
+    .expectation{
+        font-size: 1em;
+    }
+
+    .footer-icons{
+        width: 100px;
+
+    }
+
+    .whatsapp{
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media screen and (max-width:413px) {
+    .logo-text{
+        font-size: 0.7em;
+    }
+
+    .contact-button{
+        width: 100px;
+        font-size: 0.7em;
+        height: 39px;
+    }
+
+    #page-2{
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .for-how-block1{
+        width: 100%;
+        height: 85px;
+    }
+
+    .for-how-block{
+        height: 70px;
+    }
+
+    .for-how-title{
+        font-size: 1.3em;
+    }
+
+    .for-how-text{
+        font-size: 0.8em;
+    }
+
+    .study-text{
+        font-size: 0.7em;
+    }
+
+    .study{
+        width: 100%;
+    }
+    .days1{
+        margin-left: -10px;
+    }
+
+    .study-three{
+        padding-left: -90px;
+    }
+
+    .days3{
+        margin-left: -120px;
+    }
+
+    .base{
+        width: 100%;
+        margin-left: -20px;
+    }
+
+    .base-text{
+        width: 60%;
+        font-size: 0.675em;
+    }
+
+    .base-text-block3{
+        margin-left: -80px;
+    }
+
+    .rectangles-consultation{
+        margin-left: -100px;
+    }
+
+    footer{
+        max-width: 100%;
+        height: 390px;
+    }
+}
